@@ -1,0 +1,40 @@
+.full-wrapper {
+  margin-top: 16%;
+}
+
+.wrapper {
+  display: flex;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title {
+  margin-top: -50px;
+}
+
+.bar {
+  height: 130px;
+  width: 200px;
+  background-color: green;
+  background-image: url("../img/bar.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.update {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+}
+
+.personnel {
+  margin-top: 25px;
+}

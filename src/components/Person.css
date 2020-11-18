@@ -1,0 +1,38 @@
+.person {
+  background-image: none;
+  background-position: center;
+  background-size: cover;
+  height: 70px;
+  width: 50px;
+  transition: 1s all;
+}
+
+.p0 {
+  background-image: url("../img/p1.png");
+  animation: move 1s linear infinite alternate;
+  animation-delay: 0.5s;
+}
+
+.p1 {
+  background-image: url("../img/p2.png");
+  animation: move 1s linear infinite alternate;
+  animation-delay: 0.3s;
+}
+
+.p2 {
+  background-image: url("../img/p3.png");
+  animation: move 1s linear infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
